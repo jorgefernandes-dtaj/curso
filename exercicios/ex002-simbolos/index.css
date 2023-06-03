@@ -1,0 +1,23 @@
+body{
+    background-color: chartreuse;
+}
+h1 {
+    color: rgb(89, 89, 197);
+    text-align: center;
+    font-family: Verdana;
+    font-size: 50px;
+
+}
+p{
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 30px;
+    
+}
+.hover{
+    transition: 0,5s;
+    cursor: pointer;
+    color: red;
+   
+   
+}
