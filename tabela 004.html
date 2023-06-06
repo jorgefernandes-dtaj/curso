@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.2em;
+        }
+        table{
+            width: 400px;
+            border-collapse: collapse;
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+        }
+        col.cgrupo{
+            background-color: lightgray;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="cgrupo" span="2">
+            <col class="cprf">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <thead>
+            <tr>
+                <th scope="col">Nome
+                <th scope="col">Sexo
+                <th scope="col">Idade
+                <th scope="col">Profisão
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Jorge
+                <th>M
+                <th>33
+                <th>Fresador CNC
+            </tr>
+            <tr>
+                <th>Jorge
+                <th>M
+                <th>33
+                <th>Fresador CNC
+            </tr>
+            <tr>
+                <th>Jorge
+                <th>M
+                <th>33
+                <th>Fresador CNC
+            </tr>
+            <tr>
+                <th>Jorge
+                <th>M
+                <th>33
+                <th>Fresador CNC
+            </tr>
+            <tr>
+                <th>Jorge
+                <th>M
+                <th>33
+                <th>Fresador CNC
+            </tr>
+</body>
+</html>
