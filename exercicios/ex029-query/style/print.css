@@ -1,0 +1,24 @@
+@charset "UTF-8"
+
+;*{
+    margin: 10;
+    padding: 10;
+}
+
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+h1{
+    text-align: center;
+}
+menu{
+    display: none;
+}
+article{
+    width: 100%;
+}
+article::after{
+    content: 'Esse artigo foi impresso editado por Jorge Fernandes';
+}
