@@ -13,6 +13,8 @@ html{
 }
 body{
     background: black url(../imagens/back-phone.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 main{
     background-color: white;
