@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body{
+    font: normal 15pt arial;
+    background: #0584eb;
+}
+header{
+    color: white;
+    text-align: center;
+}
+section{
+    background: white ;
+    border-radius: 10px;
+    max-width: 800px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.404); 
+    padding: 20px;
+    margin: auto;
+}
+.data{
+    padding: 10px;
+}
+#btn{
+    width: 80px;
+    padding: 5px;
+}
+#msg{
+    padding: 20px;
+}
+footer{
+    color: white;
+    text-align: center;
+}

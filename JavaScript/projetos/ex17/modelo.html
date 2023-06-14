@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+    <header>
+        <h1>Vamos contar</h1>
+    </header>
+
+    <section>
+       <form>
+        <div class="data">
+            <label for="txtstart">Inicio:</label>
+            <input type="number" name="start" id="txtstart">
+        </div>
+        <div class="data">
+            <label for="txtend">Fim:</label>
+            <input type="number" name="end" id="txtend" >
+        </div>
+        <div class="data">
+            <label for="txtstep">Passo:</label>
+            <input type="number" name="step" id="txtstep">
+        </div>
+        <input id="btn" type="button" value="Contar" onclick="contar()">
+       </form>
+        <div >
+            <p id="res"> Insira os valores...</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Jorge Fernandes</p>
+    </footer>
+
+    <script src="scrip.js"></script>
+</body>
+</html>
